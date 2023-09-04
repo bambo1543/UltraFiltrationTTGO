@@ -53,7 +53,7 @@ void setup() {
     pinMode(RELAY_1_PIN, OUTPUT);
     digitalWrite(RELAY_1_PIN, HIGH);
 
-    taskManager.scheduleFixedRate(1000, [] {
+    taskManager.scheduleFixedRate(500, [] {
         Serial.println("Start flush job...");
 
         Serial.println("LastFlushTimeInSec: " + String(lastFlushTimeInSec));
@@ -95,5 +95,5 @@ void CALLBACK_FUNCTION onIntervalChanged(int id) {
 }
 
 void CALLBACK_FUNCTION onManualFlush(int id) {
-    lastFlushTimeInSec = 0;
+    relayOn();
 }
