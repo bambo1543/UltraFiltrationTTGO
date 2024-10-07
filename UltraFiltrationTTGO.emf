@@ -1,7 +1,7 @@
 {
   "version": "1.00",
   "projectName": "Project description",
-  "author": "andreas",
+  "author": "bambo",
   "items": [
     {
       "parentId": 0,
@@ -88,7 +88,7 @@
     "lastRemoteUuids": [
       "2c101fec-1f7d-4ff3-8d2b-992ad41e7fcb"
     ],
-    "lastThemeUuid": "03c6b25f-db63-402a-8447-a5ce1484c14d",
+    "lastThemeUuid": "2F1EAB1E-0469-42C8-A222-BE2DF96D6D81",
     "applicationUUID": "7d595025-5ca6-49c9-93a5-8969f94583b0",
     "applicationName": "UltraFiltrationTTGO",
     "lastProperties": [
@@ -228,11 +228,6 @@
         "subsystem": "THEME"
       },
       {
-        "name": "BORDER_FOR_ACTIONS",
-        "latestValue": "0",
-        "subsystem": "THEME"
-      },
-      {
         "name": "TITLE_SHOW_MODE",
         "latestValue": "TITLE_FIRST_ROW",
         "subsystem": "THEME"
@@ -243,13 +238,8 @@
         "subsystem": "THEME"
       },
       {
-        "name": "USE_SLIDER_ANALOG",
-        "latestValue": "true",
-        "subsystem": "THEME"
-      },
-      {
         "name": "NEED_EDITING_ICONS",
-        "latestValue": "false",
+        "latestValue": "true",
         "subsystem": "THEME"
       }
     ],
@@ -266,7 +256,8 @@
       "menuDefinitions": []
     },
     "packageNamespace": "",
-    "appIsModular": false
+    "appIsModular": false,
+    "listOfEmbeddedForms": []
   },
   "stringLists": []
 }
